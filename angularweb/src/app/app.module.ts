@@ -17,6 +17,12 @@ import { DemoMaterialModule } from './demo-material-module';
 
 import { SharedModule } from './shared/shared.module';
 import { SpinnerComponent } from './shared/spinner.component';
+import { AddDocumentComponent } from "./document/add-document/add-document.component";
+import { EditDocumentComponent } from "./document/edit-document/edit-document.component";
+import { ListDocumentComponent } from "./document/list-document/list-document.component";
+import { AddDocumentComponent } from "./document/add-document/add-document.component";
+import { EditDocumentComponent } from "./document/edit-document/edit-document.component";
+import { ListDocumentComponent } from "./document/list-document/list-document.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +31,13 @@ import { SpinnerComponent } from './shared/spinner.component';
     AppHeaderComponent,
     SpinnerComponent,
     AppSidebarComponent,
-  ],
+        AddDocumentComponent,
+        EditDocumentComponent,
+        ListDocumentComponent,
+        AddDocumentComponent,
+        EditDocumentComponent,
+        ListDocumentComponent
+    ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
